@@ -1,0 +1,58 @@
+{
+  "type": "Group",
+  "elements": [
+    {
+      "type": "Label",
+      "text": "Manuscript Objects Input Form"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/id"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/ark"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/type",
+      "options": {
+        "format": "radio"
+      }
+    },
+    {
+      "type": "Label",
+      "text": "Identifier No."
+    },
+    {
+      "type": "HorizontalLayout",
+      "elements": [
+        
+        {
+          "type": "Control",
+          "scope": "#/properties/idno/properties/type"
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/idno/properties/value"
+        }
+      ]
+      
+    }, 
+
+    {
+      "type": "Control",
+      "scope": "#/properties/summary"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/extent"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/weight"
+    }
+
+    
+  ]
+}
