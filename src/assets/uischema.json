@@ -25,21 +25,10 @@
       "text": "Identifier No."
     },
     {
-      "type": "HorizontalLayout",
-      "elements": [
-        
-        {
-          "type": "Control",
-          "scope": "#/properties/idno/properties/type"
-        },
-        {
-          "type": "Control",
-          "scope": "#/properties/idno/properties/value"
-        }
-      ]
-      
-    }, 
-
+      "type": "Control",
+      "scope": "#/properties/idno"
+    },
+    
     {
       "type": "Control",
       "scope": "#/properties/summary"
@@ -51,7 +40,84 @@
     {
       "type": "Control",
       "scope": "#/properties/weight"
+    },
+    {
+      "type": "Label",
+      "text": "Dimensions"
+    },
+    {
+      "type": "HorizontalLayout",
+      "elements": [
+        
+        
+        {
+          "type": "Control",
+          "scope": "#/properties/dim/properties/value"
+        }
+      ]
+      
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/state"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/form"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/fol"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/features"
+    },
+    {
+      "type": "Label",
+      "text": "Parts"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/parts"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/has_bind"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/iiif"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/location"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/assoc_date"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/note"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/related_mss"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/viscodex"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/bib"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/cataloguer"
     }
+
 
     
   ]
